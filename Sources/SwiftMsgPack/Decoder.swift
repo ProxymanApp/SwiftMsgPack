@@ -34,7 +34,7 @@ import Foundation
 
 // MARK: Helper Struct to read and decoded stream of `Data`
 
-private struct StreamReader {
+struct StreamReader {
 	
 	/// Pointer to `data` instance
 	private var data: Data
